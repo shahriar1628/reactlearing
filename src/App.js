@@ -4,6 +4,7 @@ import { Navbar, NavbarBrand } from 'reactstrap';
 import Menu from './components/MenuComponent' ; 
 import Clock from './components/ClockComponent' ;  
 import LoginForm from './components/LoginForm' ; 
+import LiftingStateUp from './components/LiftingStateUp' ; 
 import './App.css';
 
 class App extends Component {
@@ -16,6 +17,8 @@ class App extends Component {
           </div>
         </Navbar>
         <LoginForm/>
+        <Clock/>
+        <LiftingStateUp />
         </div>
     );
   }
